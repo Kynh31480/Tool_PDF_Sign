@@ -4,9 +4,7 @@
 
 **Ký số, đóng dấu, chỉnh sửa và xử lý hàng loạt PDF — dành riêng cho bộ phận văn thư.**  
 *Ứng dụng Windows chạy cục bộ 100% trên máy · Nhanh chóng · An toàn · Độc lập*
-
 <br>
-
 [![Tải về](https://img.shields.io/badge/⬇%20Tải%20về-Windows%2010%20%2F%2011-2563EB?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Kynh31480/Tool_PDF_Sign/releases/latest)
 
 [![Phiên bản](https://img.shields.io/github/v/release/Kynh31480/Tool_PDF_Sign?style=flat-square&label=phiên%20bản&color=22C55E)](https://github.com/Kynh31480/Tool_PDF_Sign/releases/latest)
@@ -18,7 +16,6 @@
 ![Tự cập nhật](https://img.shields.io/badge/Tự-cập%20nhật-10B981?style=flat-square)
 
 [📥 Cài đặt](#-cài-đặt--khởi-động) · [⚡ Quick Start](#-quick-start-3-bước) · [🧭 Hướng dẫn](#-hướng-dẫn-sử-dụng) · [🧰 Tiện ích](#-gói-tiện-ích--xử-lý-hàng-loạt) · [🛟 Sự cố](#-xử-lý-sự-cố)
-
 <br>
 
 <img src="Screenshot.jpg" alt="Giao diện Tool PDF Sign" width="850">
@@ -26,11 +23,8 @@
 <sub>Giao diện nền tối Obsidian Pro, kéo-thả file trực quan, co giãn theo màn hình.</sub>
 
 </div>
-
 ---
-
 ## 💡 Tại sao nên dùng?
-
 | | |
 | :--- | :--- |
 | 🏛️ **Đặc thù văn thư** | Tối ưu cho ký duyệt hồ sơ, đóng dấu và xử lý số lượng lớn văn bản mỗi ngày. |
@@ -38,9 +32,7 @@
 | ⚡ **Xử lý hàng loạt** | Theo dõi tiến độ từng file, tự phát hiện lỗi, thử lại, và chọn cách xử lý khi trùng tên file xuất. |
 | 🔒 **Offline** | Tài liệu được xử lý ngay trên máy, không tải lên máy chủ nào. |
 | 🔓 **Mã nguồn mở** | Phát hành theo giấy phép AGPL-3.0, bạn có thể tự đọc và kiểm tra mã nguồn. |
-
 ---
-
 ## 📥 Cài đặt & Khởi động
 
 1. Vào **[Releases](https://github.com/Kynh31480/Tool_PDF_Sign/releases/latest)** và tải **`Tool_PDF_Sign.zip`** mới nhất.
@@ -64,7 +56,6 @@ Mỗi bản phát hành đính kèm file `Tool_PDF_Sign.sha256`. Mở Command Pr
 ```
 certutil -hashfile Tool_PDF_Sign.zip SHA256
 ```
-
 So sánh chuỗi in ra với nội dung file `.sha256` trong trang Release. Hai chuỗi giống nhau nghĩa là file không bị thay đổi.
 
 </details>
@@ -73,17 +64,13 @@ So sánh chuỗi in ra với nội dung file `.sha256` trong trang Release. Hai 
 
 - **Hệ điều hành:** Windows 10 hoặc 11 (**64-bit**).
 - **Phần mềm phụ trợ:** Microsoft Office — *chỉ cần* nếu dùng tính năng chuyển Word/Excel sang PDF.
-
 ---
-
 ## ⚡ Quick Start (3 bước)
 
 1. **Mở tài liệu** — kéo-thả file PDF vào cửa sổ hoặc bấm nút Mở.
 2. **Chọn thông tin** — chọn người ký trong danh sách quản lý, áp dụng mẫu bố cục có sẵn.
 3. **Hoàn tất** — chỉnh vị trí chữ ký/con dấu trên trang rồi bấm **Lưu**.
-
 ---
-
 ## 🧭 Hướng dẫn sử dụng
 
 ### ✍️ Ký một file
@@ -112,9 +99,6 @@ Có hai chế độ trên thanh **MODE**:
 | :--- | :--- |
 | **✎ SỬA CHỮ** | Rê chuột vào chữ để hiện khung → **click** để mở ô sửa tại chỗ. `Enter` lưu · `Esc` huỷ · `Tab` mở thanh định dạng. |
 | **DI CHUYỂN** | Click chọn chữ → kéo đến vị trí mới → thả chuột. |
-
-Ở các chế độ khác, double-click vào chữ gốc vẫn mở ô sửa như trước.
-
 ---
 
 ## ✨ Tính năng chi tiết
@@ -179,14 +163,7 @@ Chọn nhiều file, xếp các bước vào hàng đợi và chạy cả quy tr
 | **Không tự cập nhật** | Mạng tới GitHub bị gián đoạn — tải `.zip` mới từ [Releases](https://github.com/Kynh31480/Tool_PDF_Sign/releases/latest), giải nén và chạy đè. |
 | **Lỗi khác** | Gửi file `pdfsign.log` (nếu có trong thư mục ứng dụng) để được phân tích. |
 
-## 📜 Mới trong bản v2026.10.06
-
-- **✎ Chế độ SỬA CHỮ:** rê chuột hiện khung, click để sửa chữ gốc.
-- **Sửa chữ theo content stream:** giữ font gốc (kể cả chữ đậm), đẩy chữ phía sau sang phải khi chữ mới dài hơn, căn giữa trong ô, không làm mất chữ hàng xóm. Nếu không áp dụng được, ứng dụng tự quay về cách sửa cũ.
-- **Di chuyển chữ:** sửa lỗi báo sai khi chữ có dấu gạch ngang.
-
 Lịch sử đầy đủ: [Releases](https://github.com/Kynh31480/Tool_PDF_Sign/releases).
-
 ---
 
 ## ⚖️ Giấy phép
