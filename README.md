@@ -169,8 +169,7 @@ Lịch sử đầy đủ: [Releases](https://github.com/Kynh31480/Tool_PDF_Sign/
 ## ⚖️ Giấy phép
 
 Phát hành theo **GNU Affero General Public License v3.0** — xem file [LICENSE](LICENSE).  
-Copyright © 2026 Nguyễn Hồng Kỳ & Đoàn Nhân Hiếu — TTTND Gia Lai.
-
+Copyright © 2026 Nguyễn Hồng Kỳ — TTTND Gia Lai.
 <div align="center">
 <sub>Tác giả: Nguyễn Hồng Kỳ & Đoàn Nhân Hiếu · TTTND Gia Lai</sub>
 </div>
